@@ -2,12 +2,12 @@
 
 - Desafio feito com SvelteKit
 
-Crie um site que exiba um formulário com os campos "Nome", "Telefone" e "Email". Ao clicar no botão "Iniciar Desafio", o site deve exibir um contador regressivo de 15 segundos no formato mm:ss. Ao clicar no botão "Enviar", o site deve exibir um modal com o texto "Desafio finalizado com sucesso!".
-Se o usuário demorar mais que 15 segundos para clicar em "Enviar", o site deve exibir um modal com o texto "Desafio finalizado com falha!".
-O modal deve ter um X no canto superior direito (você pode e deve usar o modelo do DaisyUI) e deve fechar quando o usuário clica fora do modal e quando clica no X.
-O site deve ter uma página chamada "candidate" que exibe o nome, telefone e email do candidato, e esta sessão fica visível apenas após o desafio ser iniciado.
-Deve haver um botão no canto superior direito da tela que, ao ser clicado, vai para esta página. Nela, deve haver outro botão que, ao ser clicado, volta para a página do desafio.
-Ao entrar e sair da página "candidate", a contagem do tempo não deve ser interrompida.
+- Crie um site que exiba um formulário com os campos "Nome", "Telefone" e "Email". Ao clicar no botão "Iniciar Desafio", o site deve exibir um contador regressivo de 15 segundos no formato mm:ss. Ao clicar no botão "Enviar", o site deve exibir um modal com o texto "Desafio finalizado com sucesso!".
+- Se o usuário demorar mais que 15 segundos para clicar em "Enviar", o site deve exibir um modal com o texto "Desafio finalizado com falha!".
+- O modal deve ter um X no canto superior direito (você pode e deve usar o modelo do DaisyUI) e deve fechar quando o usuário clica fora do modal e quando clica no X.
+- O site deve ter uma página chamada "candidate" que exibe o nome, telefone e email do candidato, e esta sessão fica visível apenas após o desafio ser iniciado.
+- Deve haver um botão no canto superior direito da tela que, ao ser clicado, vai para esta página. Nela, deve haver outro botão que, ao ser clicado, volta para a página do desafio.
+- Ao entrar e sair da página "candidate", a contagem do tempo não deve ser interrompida.
 
 Regras:
 - Todo o cõdigo deve ser em Typescript, javascript sem tipos não é permitido.
